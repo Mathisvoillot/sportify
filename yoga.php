@@ -1,4 +1,5 @@
 <?php
+// yoga.php
 require_once 'config.php';
 require_once 'header.php';
 ?>
@@ -19,8 +20,6 @@ require_once 'header.php';
         <p><strong>Lieu :</strong> Salle Polyvalente, campus Omnes – Bâtiment A, 2e étage.</p>
         <p><strong>Tarif :</strong> 10 € la séance ou 80 € le forfait 10 cours. Réservation obligatoire.</p>
         <p>Pour toute question, contactez-nous à <a href="mailto:sportify@yoga.example.com" class="text-blue-600 hover:underline">sportify@yoga.example.com</a> ou via le chat en ligne.</p>
-
-        <!-- bouton inscription-->
         <div class="mt-8 text-center">
             <a href="register.php" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 font-medium">
                 S'inscrire au cours
@@ -28,7 +27,6 @@ require_once 'header.php';
         </div>
     </div>
 </div>
-
 
 <?php
 require_once 'footer.php';
