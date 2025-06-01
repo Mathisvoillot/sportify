@@ -1,4 +1,29 @@
+<?php
+require_once 'config.php';
+require_once 'header.php';
+?>
 
+<section class="hero-gradient text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl font-bold mb-4">Votre santé, notre passion</h1>
+                <p class="text-xl mb-6">Trouvez le coach parfait pour atteindre vos objectifs sportifs avec Sportify, la plateforme de consultation sportive en ligne d'Omnes Education.</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#coaches" class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-medium">Trouver un coach</a>
+                    <a href="visit_gym.php" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-medium inline-block">Visiter la salle</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 relative">
+                <div class="carousel-container relative overflow-hidden rounded-xl shadow-2xl">
+                    <div class="carousel-slides flex transition-transform duration-300">
+                        <div class="carousel-slide min-w-full">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1470&q=80"
+                                 alt="Fitness training" class="w-full h-96 object-cover">
+                        </div>
+                        <div class="carousel-slide min-w-full">
+                            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=1470&q=80"
+                                 alt="Personal coaching" class="w-full h-96 object-cover">
                         </div>
                         <div class="carousel-slide min-w-full">
                             <img src="https://images.unsplash.com/photo-1538805060514-97d9cc17730c?auto=format&fit=crop&w=1374&q=80"
