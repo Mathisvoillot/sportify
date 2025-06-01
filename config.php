@@ -37,5 +37,5 @@ function isLoggedIn() {
  * Retourne le rôle de l’utilisateur connecté (admin|coach|client) ou null si non connecté.
  */
 function getUserRole() {
-    return $_SESSION['user_role'] ?? null;
+    return $_SESSION['user_role'] ?? null
 }
