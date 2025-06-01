@@ -7,8 +7,7 @@
 Adafruit_LIS3MDL lis3mdl;
 
 // === Définition des broches ===
-#define EN_D 23
-#define EN_G 4
+
 #define IN_1_D 19
 #define IN_2_D 18
 #define IN_1_G 17
